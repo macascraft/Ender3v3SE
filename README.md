@@ -83,7 +83,8 @@ ssh pi@enderpi
 
 * Para estes passos vamos utilizar o tutorial no youtube do nosso amigo Wiliam
 * Notas importantes: na nossa instalação estamos a usar host name que é mais facil do que usar o ip que é falado no video
-* Quando chegar à parte de configurar o repositório, aconselho a colocar no ficheiro só o repositório alternatido e remover o original e depois na escolha do repositorio escolher normalmente o 1, eu tive problemas com isso onde ele assumia sempre o repositório original em vez do escolhido...
+* Quando chegar à parte de configurar o repositório, aconselho a colocar no ficheiro só o repositório alternativo e remover o original, depois na escolha do repositorio escolher normalmente o 1.
+* Eu tive problemas com isso onde ele assumia sempre o repositório original em vez do escolhido...
 
 https://youtu.be/AZGesW8qMRY?si=OFIDD43S0N5WxMU-&t=373
 
