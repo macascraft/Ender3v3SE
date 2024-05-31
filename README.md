@@ -33,6 +33,7 @@ Materiais necessários:
 * Descompactamos o ficheiro, colocamos no directorio fw e alteramos o nome para por exemplo fw_original.bin
 
 <h3>Vamos agora preparar o cartão SD para o rpi</h3>
+
 * inserimos o cartão sd no pc
 * fazemos download do instalador do so (sistema operativo) do rpi em https://www.raspberrypi.com/software/ e executamos o ficheiro
 * no fim de instalado deve abrir o programa de instalação do so automaticamente
