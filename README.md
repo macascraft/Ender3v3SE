@@ -19,11 +19,11 @@ Resumidamente o que vamos fazer é o seguinte:
 
 
 Materiais necessários:
-* raspberry PI 2B ou superior (se for o 2B tem que ter uma pen wifi ou ligar por cabo de rede)
+* Raspberry PI 2B ou superior (se for o 2B tem que ter uma pen wifi ou ligar por cabo de rede)
 * Caixa e respetivos dissipadores para o rpi (imprimir uma caixa se não tiver e dissipadores há em lojas de electronica)
 * 2 cartões SD com 2gb min (um para ficar no rpi e outro para a impressora se não tiver)
-* cabo usb-c para ligar o rpi à impressora
-* cabo/transformador com 3A para alimentar o rpi (raspberry pi)
+* Cabo usb-c para ligar o rpi à impressora
+* Cabo/Transformador com 3A para alimentar o rpi (raspberry pi)
 * Slot SD ou adaptador para ligar-mos o cartão SD no pc/portatil que vamos usar para transferir os ficheiros necessários
 * O display e respetivo suporte não vão ser mais usados, podem ser desmontados e guardados
 
@@ -36,38 +36,38 @@ Materiais necessários:
 
 <h3>Vamos agora preparar o cartão SD para o rpi</h3>
 
-* inserimos o cartão sd no pc
-* fazemos download do instalador do so (sistema operativo) do rpi em https://www.raspberrypi.com/software/ e executamos o ficheiro
-* no fim de instalado deve abrir o programa de instalação do so automaticamente
+* Inserimos o cartão sd no pc
+* Fazemos download do instalador do so (sistema operativo) do rpi em https://www.raspberrypi.com/software/ e executamos o ficheiro
+* No fim de instalado deve abrir o programa de instalação do so automaticamente
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/welcome.png" height="500">
 
-* em choose device, escolhemos o rpi respetivo 
+* Nm choose device, escolhemos o rpi respetivo 
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/choose-model.png" height="500">
 
-* depois em Choose OS -> Raspberry Pi OS (other) -> Escolher o Raspbian OS Lite 64bits ou 32bits dependendo da versão do rpi  
+* Depois em Choose OS -> Raspberry Pi OS (other) -> Escolher o Raspbian OS Lite 64bits ou 32bits dependendo da versão do rpi  
 <img src="https://raw.githubusercontent.com/dw-0/kiauh/master/resources/screenshots/rpi_imager1.png" height="500">
 <img src="https://raw.githubusercontent.com/dw-0/kiauh/master/resources/screenshots/rpi_imager2.png" height="500">
 
-* em choose storage, escolher o cartão sd
+* Em choose storage, escolher o cartão sd
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/choose-storage.png" height="500">
 
-* depois escolher edit settings
+* Depois escolher edit settings
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/os-customisation-prompt.png" height="500">
 
-* no seguinte ecrã inserir os dados
+* No seguinte ecrã inserir os dados
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/os-customisation-general.png" height="500">
 
 * Host name: é o nome sem espaços para depois nos ligarmos ao rpi, podemos escrever por exemplo enderpi
-* inserir o username e password, podemos escrever pi como username e depois escolher uma password
-* clicar em wireless lan para inserirmos os dados da ligação wifi ou não escolher e usar um cabo de rede que liga ao router
-* escolher o pais do wifi, por exemplo PT
-* inserir as local settings zona e idioma do teclado
+* Inserir o username e password, podemos escrever pi como username e depois escolher uma password
+* Clicar em wireless lan para inserirmos os dados da ligação wifi ou não escolher e usar um cabo de rede que liga ao router
+* Escolher o pais do wifi, por exemplo PT
+* Inserir as local settings zona e idioma do teclado
 
-* depois no separador services ativar o ssh
+* Depois no separador services ativar o ssh
 
   <img src="https://www.raspberrypi.com/documentation/computers/images/imager/os-customisation-services.png" height="500">
 
-* carregar em save e depois em sim nas 2 perguntas para iniciar a instalação
+* Carregar em save e depois em sim nas 2 perguntas para iniciar a instalação
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/writing.png" height="500">
 
 * Em seguida inserir o cartão sd no rpi e ligar à alimentação e se necessário ligar o cabo de rede
@@ -75,11 +75,11 @@ Materiais necessários:
 <h2>Ligação ao rpi</h2>
 
 * Abrir uma janela de terminal (linha de comandos) num pc ligado à mesma rede do rpi
-* inserir o seguinte comando onde pi é o username e enderpi é o host name
+* Inserir o seguinte comando onde pi é o username e enderpi é o host name
 ```shell
 ssh pi@enderpi
 ```
-* inserir a password e carregar em enter
+* Inserir a password e carregar em enter
 
 <h2>Instalação do klipper</h2>
 
@@ -95,7 +95,7 @@ Repositório para colocar no ficheiro:
 ```shell
 https://github.com/0xD34D/klipper_ender3_v3_se.git
 ```
-Kiauh
+Kiauh:
 https://github.com/dw-0/kiauh.git
 
 Ficheiros de configuração do tutorial:
