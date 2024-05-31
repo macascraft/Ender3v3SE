@@ -7,7 +7,7 @@ Controlar a impressoa pelo telemóvel e pc
 
 <h3>❗Este sistema é fácilmente revertido com apenas a passagem de um ficheiro no cartão SD e volta a ter o sistema original❗</h2>
 
-A impressora vai passar a ser controlada pela rede local da vossa internet, deste modo o rpi (raspberry pi) necessita de ser ligado a um router via wifi ou cabo de rede (partilha de internet via hotspot não funciona pois ele usa a rede e não a internet e deste modo para depois a conseguir controlar temos que estar ligado na mesma rede)
+A impressora vai passar a ser controlada pela rede local da vossa internet, deste modo o rpi (raspberry pi) necessita de ser ligado a um router via wifi ou cabo de rede (partilha de internet via hotspot não funciona pois ele usa a rede e não a internet e deste modo para depois a conseguir controlar temos que estar ligados na mesma rede)
 
 Resumidamente o que vamos fazer é o seguinte:
 * Instalar o sistema operativo no SD do rpi (raspberry pi)
