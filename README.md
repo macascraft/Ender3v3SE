@@ -110,4 +110,4 @@ https://github.com/williamcastanho/Ender3_V3_SE_Config
 * Ligar o ecrã e por fim ligar a impressora
 * Para voltar a colocar o Klipper basta colocar novamente o ficheiro modificado no cartão SD, desligar o ecrã e ligar o cabo usb-c do rpi
 
-<h2>Boas impressões</h2>
+<h2>✨Boas impressões✨</h2>
