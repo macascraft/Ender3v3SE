@@ -1,5 +1,7 @@
 <h1>Ender 3 V3 SE - Instalação do Klipper</h1>
 
+<table><tr><td><img src="https://raw.githubusercontent.com/Klipper3d/klipper/master/docs/img/klipper-logo.png" height="50"></td><td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Raspberry_Pi_Logo.svg/150px-Raspberry_Pi_Logo.svg.png" height="50"></td><td><img src="https://www.3ding.in/img/creality-logo.webp" height="50"></td></tr></table>
+
 Vamos intalar o Klipper na nossa impressora para termos mais controle em termos de rapidez e qualidade de impressão.
 Com este sistema podemos por exemplo alterar a cabeça de impressão e depois conseguir alterar o parametros necessários.
 Fazer calibrações e upgrades que só as impressoras mais caras/avançadas possuem.
@@ -85,6 +87,7 @@ ssh pi@enderpi
 * Notas importantes: na nossa instalação estamos a usar host name que é mais facil do que usar o ip que é falado no video
 * Quando chegar à parte de configurar o repositório, aconselho a colocar no ficheiro só o repositório alternativo e remover o original, depois na escolha do repositorio escolher normalmente o 1.
 * Eu tive problemas com isso onde ele assumia sempre o repositório original em vez do escolhido...
+* Não esquecer de colocar o fw modificado na pasta fw junto com o original para se for necessário
 
 https://youtu.be/AZGesW8qMRY?si=OFIDD43S0N5WxMU-&t=373
 
@@ -97,3 +100,14 @@ https://github.com/dw-0/kiauh.git
 
 Ficheiros de configuração do tutorial:
 https://github.com/williamcastanho/Ender3_V3_SE_Config
+
+<h2>📢Reposição do sistema original</h2>
+
+* Desligar a impressora, desligar o cabo usb-c
+* Colocar o cartão SD no pc e substituir o ficheiro que lá está pelo original
+* Nota importante o fichero de fw quer seja o original ou o do klipper tem que ter sempre um novo nome, por exemplo colocar 01, 02, 03 etc no inicio do nome 02_fw_original.bin
+* Voltar a colocar o cartão na impressora
+* Ligar o ecrã e por fim ligar a impressora
+* Para voltar a colocar o Klipper basta colocar novamente o ficheiro modificado no cartão SD, desligar o ecrã e ligar o cabo usb-c do rpi
+
+<h2>Boas impressões</h2>
