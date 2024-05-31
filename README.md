@@ -2,7 +2,7 @@
 
 Vamos intalar o Klipper na nossa impressora para termos mais controle em termos de rapidez e qualidade de impressão.
 Com este sistema podemos por exemplo alterar a cabeça de impressão e depois conseguir alterar o parametros necessários.
-Fazer calibrações e upgrades que só as impressoras mais caras possuem.
+Fazer calibrações e upgrades que só as impressoras mais caras/avançadas possuem.
 Controlar a impressoa pelo telemóvel e pc
 
 <h3>❗Este sistema é fácilmente revertido com apenas a passagem de um ficheiro no cartão SD e volta a ter o sistema original❗</h2>
