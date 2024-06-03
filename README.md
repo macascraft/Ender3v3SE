@@ -1,6 +1,6 @@
 <h1>Ender 3 V3 SE - Instalação do Klipper</h1>
 
-<table><tr><td><img src="https://raw.githubusercontent.com/Klipper3d/klipper/master/docs/img/klipper-logo.png" height="50"></td><td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Raspberry_Pi_Logo.svg/150px-Raspberry_Pi_Logo.svg.png" height="50"></td><td><img src="https://www.3ding.in/img/creality-logo.webp" height="50"></td></tr></table>
+<table align=center><tr><td><img src="https://raw.githubusercontent.com/Klipper3d/klipper/master/docs/img/klipper-logo.png" height="50"></td><td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Raspberry_Pi_Logo.svg/150px-Raspberry_Pi_Logo.svg.png" height="50"></td><td><img src="https://www.3ding.in/img/creality-logo.webp" height="50"></td></tr></table>
 
 Vamos intalar o Klipper na nossa impressora para termos mais controle em termos de rapidez e qualidade de impressão.
 Com este sistema podemos por exemplo alterar a cabeça de impressão e depois conseguir alterar o parametros necessários.
@@ -41,7 +41,7 @@ Materiais necessários:
 * No fim de instalado deve abrir o programa de instalação do so automaticamente
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/welcome.png" height="500">
 
-* Nm choose device, escolhemos o rpi respetivo 
+* Em choose device, escolhemos o rpi respetivo 
 <img src="https://www.raspberrypi.com/documentation/computers/images/imager/choose-model.png" height="500">
 
 * Depois em Choose OS -> Raspberry Pi OS (other) -> Escolher o Raspbian OS Lite 64bits ou 32bits dependendo da versão do rpi  
@@ -110,4 +110,5 @@ https://github.com/williamcastanho/Ender3_V3_SE_Config
 * Ligar o ecrã e por fim ligar a impressora
 * Para voltar a colocar o Klipper basta colocar novamente o ficheiro modificado no cartão SD, desligar o ecrã e ligar o cabo usb-c do rpi
 
-<h2>✨Boas impressões✨</h2>
+<center><h2>✨Boas impressões✨</h2>
+Canal no Facebook: https://www.facebook.com/share/Gr7trGbYuzAmHviY/</center>
