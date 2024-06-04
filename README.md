@@ -32,7 +32,7 @@ Materiais necessários:
 * Vamos criar uma pasta no nosso pc (por exemplo nos meus documentos) com o nome Ender3v3SE, lá dentro vamos criar outra pasta com o nome FW que vai servir para colocarmos os 2 ficheiros de firmware (o original de fábrica e o modificado para usar o Klipper)
 * Vamos fazer download do fw (firmware) original que está na pagina de suporte do fabricante https://www.crealitycloud.com/software-firmware/firmware/ender-series
 * Link direto para a versão 1.0.6  https://file2-cdn.creality.com/file/2a1091df494fd4883073acba32e6e976/Ender-3%20V3%20SE_HWCR4NS200320C13_SWV1.0.6_GD303.rar
-* Descompactamos o ficheiro, colocamos no directorio fw e alteramos o nome para por exemplo fw_original.bin
+* Descompactamos o arquivo, colocamos o ficheiro bin no directorio fw e alteramos o nome para por exemplo fw_original.bin
 
 <h3>Vamos agora preparar o cartão SD para o rpi</h3>
 
